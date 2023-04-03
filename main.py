@@ -46,7 +46,7 @@ def moveDataToBigQuery(event, context):
 
 # For local testing
 if __name__ == '__main__':
-    event = {'name': 'test_file.csv', 'bucket': 'my-gcs-bucket'}
+    event = {'name': 'test_file.csv', 'bucket': 'csvfile-bucket'}
     context = {}
     moveDataToBigQuery(event, context)
 
